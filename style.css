@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+section{
+    display: flex;
+    justify-content: center;
+
+}
+
+section input{
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    border:none;
+    margin: 3px 0px;
+    padding: 2px;
+    margin-left: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+section input:focus{
+    outline: none;
+    box-shadow: 1px 3px 4px rgb(5, 240, 5);
+    
+}
+
+section form div{
+    display: flex;
+    justify-content: space-between;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+#butao{
+    background-color: rgb(107, 214, 7);
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#butao:hover{
+    background-color: rgb(18, 155, 5);
+}
